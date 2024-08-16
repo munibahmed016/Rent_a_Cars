@@ -5,6 +5,7 @@ import { Logo } from "../logo";
 import { NavItems } from "./navItems";
  
 const NavabarContainer = styled.div`
+min-height: 68px;
     ${
         tw`
             flex
