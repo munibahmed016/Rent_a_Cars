@@ -3,7 +3,7 @@ import styled, { css } from "styled-components";
 import tw from "twin.macro";
 import { slide as Menu } from "react-burger-menu";
 import { useMediaQuery } from "react-responsive";
-import { SCREEN } from "./responsive";
+import { SCREENS } from "./responsive";
 import menuStyles from "./menuStyles";
 
 const ListContainer = styled.ul`
@@ -51,7 +51,7 @@ const Link = styled.a`
 `;
 
 export function NavItems() {
-  const isMobile = useMediaQuery({ maxWidth: SCREEN.sm });
+  const isMobile = useMediaQuery({ maxWidth: SCREENS.sm });
 
   if (isMobile) {
     return (

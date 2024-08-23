@@ -4,7 +4,6 @@ import tw from "twin.macro";
 import { Navbar } from "../../components/navbar";
 import { TopSection } from "./topSection";
 
-
 const PageConatiner = styled.div`
     ${
         tw`
